@@ -37,28 +37,37 @@ npx playwright test
 
 ```
 
+
 ## Built With
 
 - [Playwright](https://playwright.dev/) - The web testing and automation library used for creating end-to-end tests.
 - [TypeScript](https://www.typescriptlang.org/) - The programming language used to write the test scripts, offering type safety and modern JavaScript features.
 
+
 ### Scope of the Test
 
 The test script executes a series of automated checks on the calculator's web interface, inputting integer values from 10 to 100 and comparing the calculator's output against expected factorial results. This range was chosen to cover a broad spectrum of use cases while also ensuring that the calculations remain within a manageable computational complexity for web-based tools.
 
+
 ### Testing Documentation
 
-All relevant documentation for this testing task, including a detailed test plan, expected outcomes, and a comprehensive report, is available in the `testing-documentation` folder. This folder also contains screenshots capturing key moments of the testing process, providing visual evidence of the tests conducted and all discrepancies identified.
+All relevant documentation for our testing tasks, including detailed test plans, expected outcomes, comprehensive reports, and visual evidence of the testing process, are available in the `testing-documentation` folder. This repository serves as a centralized location for all materials related to the testing of the online factorial calculator and the Avalanche crypto faucet, ensuring transparency and accessibility for stakeholders.
 
-- **Task 1 PDF**: A document outlining the objectives, strategies, and criteria for the testing process, furthermore it contains test cases and bugs found in the testing process during the test execution.
-- **Screenshots**: Visual documentation of the testing issues found on page, highlighting the painpoints. These screenshots (and one GIF are part of Bugs reported in the main `TASK 1` document)
 
-The `testing-documentation` folder serves as a central repository for all materials related to the testing of the factorial calculator, ensuring transparency and accessibility for stakeholders interested in understanding the depth and rigor of the testing process.
+#### Exercise 1 Documentation
 
-### Accessing the Documentation
+- **Exercise 1 PDF**: This document outlines the objectives, strategies, and criteria for the testing process of the online factorial calculator. It includes detailed test cases, bugs found during testing, and provides a thorough examination of the calculator's functionality and reliability.
+- **Screenshots**: Accompanying the Exercise 1 PDF, the folder contains visual documentation highlighting the key moments and pain points discovered during testing. These include screenshots and a GIF capturing bugs reported in the Exercise 1 document, offering stakeholders a clear view of the issues encountered.
 
-The `testing-documentation` folder is located within the project's directory structure and can be accessed directly through the project repository. Stakeholders are encouraged to review these materials to gain insights into the testing methodology and results.
+
+#### Exercise 2 Documentation
+
+- **Exercise 2 Folder**: Contains a comprehensive PDF file detailing the testing process, acceptance criteria, and outcomes for the Avalanche crypto faucet. This exercise focuses on verifying the faucet's functionality, including wallet integration, address validation, token distribution, and security measures.
+  - **PDF File**: Describes the test scenarios, acceptance criteria developed, and the results of testing the Avalanche crypto faucet. It covers the testing strategy, methods used for validation, and a summary of findings.
+  - **Screenshots Folder**: Provides visual evidence of the testing process, showcasing the interface, interactions, and any discrepancies or bugs identified. This visual documentation is crucial for understanding the user experience and areas for improvement.
+
+
 
 ## Author
 
-- **Dario Ćurjak** - *Initial work* - [DarioCuc](https://github.com/darioCuc)
+- **Dario Ćurjak** - [darioCuc](https://github.com/darioCuc)
